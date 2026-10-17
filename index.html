@@ -1,0 +1,465 @@
+<!doctype html>
+<!--
+  Portfolio V3. Static site; every path is relative, so it works under /portfolio/ on GitHub Pages.
+  CONTACT CONFIG: WhatsApp is the primary contact (every link uses the same wa.me URL with a prefilled message).
+  EMAIL (optional): to add one, put this paragraph at the CONTACT CONFIG comment in the contact section:
+  <p data-contact="email">Email: <a href="mailto:ADDRESS?subject=Project%20brief">ADDRESS</a></p>
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ibrahem Marwani — I build real software</title>
+<meta name="author" content="Ibrahem Marwani">
+<meta name="description" content="Independent full-stack developer. Full-stack applications, e-commerce systems, desktop software, APIs and automation. Fixed-scope work from $150, with tests and a written handover.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0A0B0C">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230A0B0C'/%3E%3Crect x='9' y='9' width='14' height='14' rx='2' fill='%23D9DBDE'/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/instrument-serif-400-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/portrait/particles.bin" as="fetch" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Ibrahem Marwani","jobTitle":"Full-stack developer","sameAs":["https://github.com/abuzaro21"]}</script>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Ibrahem Marwani, back to top"><i aria-hidden="true"></i>Ibrahem Marwani</a>
+    <nav aria-label="Primary">
+      <ul class="links" id="links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#engineering">Engineering</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li aria-hidden="true" class="ink-bar" id="inkbar"></li>
+      </ul>
+    </nav>
+    <a class="btn primary cta-desk" href="https://wa.me/972593049788?text=Hi%20Ibrahem%2C%20I%27d%20like%20to%20discuss%20a%20software%20development%20project." target="_blank" rel="noopener noreferrer"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2c.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>Start a project<span class="sr"> on WhatsApp (opens WhatsApp)</span></a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="sheet"><b aria-hidden="true"></b>Menu</button>
+  </div>
+</header>
+<div class="sheet" id="sheet">
+  <nav aria-label="Mobile">
+    <ul>
+      <li><a href="#work">Work <span>01–03</span></a></li>
+      <li><a href="#engineering">Engineering <span>decisions</span></a></li>
+      <li><a href="#services">Services <span>from $150</span></a></li>
+      <li><a href="#process">Process <span>4 steps</span></a></li>
+      <li><a href="#contact">Contact <span>WhatsApp · email</span></a></li>
+    </ul>
+    <a class="btn primary" href="https://wa.me/972593049788?text=Hi%20Ibrahem%2C%20I%27d%20like%20to%20discuss%20a%20software%20development%20project." target="_blank" rel="noopener noreferrer"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2c.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>Discuss a project on WhatsApp<span class="sr"> (opens WhatsApp)</span></a>
+  </nav>
+</div>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="portrait" role="img" aria-label="Portrait of Ibrahem Marwani"><canvas id="portrait" data-src="assets/portrait/particles.bin" aria-hidden="true"></canvas></div>
+    <div class="wrap">
+      <div class="copy">
+        <div class="eyebrow fade" style="--d:.1s">
+          <span class="status">Available for fixed-scope work</span>
+          <span class="label">Full-stack developer · Palestine · UTC+2 / UTC+3</span>
+        </div>
+        <h1 class="h1" id="hero-title">
+          <span class="sr">I build real software. And solve the hard parts.</span>
+          <span aria-hidden="true">
+            <span class="line"><span style="--i:0" class="metal" data-text="I build real">I build real</span></span>
+            <span class="line"><span style="--i:1" class="metal" data-text="software.">software.</span></span>
+            <span class="line serif-line"><span style="--i:2">And solve the <em>hard parts.</em></span></span>
+          </span>
+        </h1>
+        <div class="fade" style="--d:.9s">
+          <p class="support"><b>Full-stack applications, e-commerce systems, desktop software, APIs and automation.</b> Founder &amp; Sole Developer of WINK STORE and TOTAL PRINT, built end to end.</p>
+          <div class="cta">
+            <a class="btn primary" href="#services">See services and prices <span class="arr" aria-hidden="true">→</span></a>
+            <a class="btn ghost" href="#work">Selected work</a>
+          </div>
+        </div>
+        <div class="fade" style="--d:1.05s" role="group" aria-labelledby="offer-title">
+          <p class="sr" id="offer-title">Fixed-scope services</p>
+          <ul class="offer">
+            <li><span>React / Next.js bug fixes</span><b>from $150</b></li>
+            <li><span>API and webhook integrations</span><b>from $250</b></li>
+            <li><span>E-commerce improvements</span><b>quoted</b></li>
+          </ul>
+          <p class="offer-note">Final fixed price and deadline agreed in writing after I review your requirements.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SELECTED WORK -->
+  <section class="work-intro" id="work" aria-labelledby="work-title">
+    <div class="wrap">
+      <div class="rise">
+        <p class="label" style="margin-bottom:18px">01–03 — Selected work</p>
+        <h2 id="work-title">Two products I own end to end, <em>and one open-source lab.</em></h2>
+      </div>
+      <ol class="index rise" style="--d:.15s">
+        <li><a href="#wink"><span class="n">01</span><span class="t">WINK STORE</span><span class="a" aria-hidden="true">↓</span><span class="d">Arabic-first commerce · web, mobile app, admin</span></a></li>
+        <li><a href="#total-print"><span class="n">02</span><span class="t">TOTAL PRINT</span><span class="a" aria-hidden="true">↓</span><span class="d">Desktop software for print layout and costing</span></a></li>
+        <li><a href="#lab"><span class="n">03</span><span class="t">AGENT TRUST</span><span class="a" aria-hidden="true">↓</span><span class="d">Engineering lab · open source</span></a></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 01 — WINK STORE -->
+  <section class="project wink" id="wink" data-nav="light" aria-labelledby="wink-title">
+    <div class="wrap">
+      <div class="p-head">
+        <div class="reveal">
+          <p class="label">01 — E-commerce · Arabic-first</p>
+          <h2 class="p-title" id="wink-title">
+            <span class="sr">WINK STORE</span>
+            <span aria-hidden="true"><span class="line"><span style="--i:0">WINK</span></span><span class="line"><span style="--i:1">STORE</span></span></span>
+          </h2>
+          <p class="p-lede rise" style="--d:.15s">An Arabic-first, right-to-left beauty store for Palestine with verified cash-on-delivery checkout. One commerce backend runs the web storefront, an iOS and Android app built with Expo, and the admin dashboard.</p>
+        </div>
+        <div class="chips rise" style="--d:.25s">
+          <span class="chip solid">Pre-launch</span>
+          <span class="chip">Illustrative demo data</span>
+          <span class="chip">Founder &amp; Sole Developer</span>
+        </div>
+      </div>
+
+      <figure class="film">
+        <video id="wink-film" controls playsinline preload="none" width="1920" height="1080" poster="assets/media/wink-store-poster.jpg" aria-describedby="wink-film-note">
+          <source src="assets/media/wink-store-film.mp4" type="video/mp4">
+          <a href="assets/media/wink-store-film.mp4">Download the WINK STORE film (MP4, 3.3 MB)</a>
+        </video>
+        <button class="play" type="button" hidden aria-label="Play the WINK STORE product film, 25 seconds, with sound">
+          <span><svg viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="18" fill="#fff"/><path d="M14.5 11.5v13l10.5-6.5z" fill="#173F33"/></svg>Play film · 0:25</span>
+        </button>
+      </figure>
+      <p class="caption" id="wink-film-note">A 25-second film recorded from the running web storefront and mobile app. Products, prices and the order shown are an illustrative demo catalogue: no real payment or delivery takes place. The store has not launched, and the native apps are not yet published in the app stores.</p>
+
+      <div class="p-body">
+        <dl class="facts rise">
+          <div><dt class="label">Problem</dt><dd>Card payment isn't a realistic default for shoppers in Palestine, so orders are paid in cash at the door, and every fake order costs a real delivery. The store also had to work in Arabic, right to left, from day one.</dd></div>
+          <div><dt class="label">Purpose</dt><dd>Let a small store take verified cash-on-delivery orders on web and mobile, and run fulfilment from one Arabic dashboard.</dd></div>
+          <div><dt class="label">Role</dt><dd>Founder &amp; Sole Developer</dd></div>
+          <div><dt class="label">Status</dt><dd>Pre-launch · demo catalogue · apps not yet in the app stores</dd></div>
+          <div><dt class="label">Stack</dt><dd>Medusa v2 · Next.js 15 · React 19 · Expo 54 · PostgreSQL · Redis · Meilisearch</dd></div>
+          <div><dt class="label">Source</dt><dd>Private repository, not shown</dd></div>
+        </dl>
+        <div class="rise" style="--d:.1s">
+          <ol class="highs">
+            <li><div><h3>One commerce backend for web, mobile and admin</h3><p>The Next.js storefront, the Expo app and an Arabic admin dashboard share one Medusa v2 API, one design-token package and shared validation, so business rules stay the same on every platform.</p></div></li>
+            <li><div><h3>Cash-on-delivery checkout with order verification</h3><p>Shoppers confirm each order with a one-time code sent over WhatsApp, behind bot protection. Staff move the order through a tracked lifecycle, and stock, payment and order status in the commerce engine follow every step.</p></div></li>
+            <li><div><h3>Reliable event processing and WhatsApp messaging</h3><p>Order confirmations and courier details go out from background event handlers, paced like a person sending, and never sent twice, even when a handler is retried after a crash.</p></div></li>
+          </ol>
+          <details class="tech">
+            <summary><span class="label">Technical details — architecture, challenges, testing</span></summary>
+            <div class="tech-body">
+              <div>
+                <h4 class="label">Architecture</h4>
+                <dl class="arch">
+                  <div><dt>Web storefront</dt><dd>Next.js 15, React 19, Tailwind CSS 4. Right-to-left Arabic layout.</dd></div>
+                  <div><dt>Mobile app</dt><dd>Expo 54, React Native, Expo Router. iOS and Android from one codebase.</dd></div>
+                  <div><dt>Admin</dt><dd>Medusa Admin extended with custom Arabic pages: order queue, analytics, messaging setup, store policies.</dd></div>
+                  <div><dt>Backend</dt><dd>Medusa v2 on PostgreSQL, with Redis for events, workflows and locks.</dd></div>
+                  <div><dt>Services</dt><dd>Meilisearch · WhatsApp via Evolution API · Expo push · S3-compatible storage · Cloudflare Turnstile.</dd></div>
+                </dl>
+              </div>
+              <div>
+                <h4 class="label">Testing evidence</h4>
+                <ul class="dots">
+                  <li>814 automated tests: backend 583, web 93, mobile 138 <span class="note">(project audit, 27 Sep 2026)</span>.</li>
+                  <li>CI on every pull request: typecheck, lint, unit tests and production build per app; PostgreSQL 16 integration checks; dependency audit.</li>
+                  <li>Visual regression tests at three phone sizes for web and app.</li>
+                  <li>A recorded reliability and security review: 19 findings, each with its fix and evidence.</li>
+                </ul>
+              </div>
+              <div class="span">
+                <h4 class="label">Challenges and solutions</h4>
+                <ul class="plain">
+                  <li><strong>Cancelled orders kept stock off sale.</strong><p>Each lifecycle step now runs the matching commerce workflow (fulfil, capture, complete, return and restock), and a dry-run-first repair script brings older orders back in line.</p></li>
+                  <li><strong>Messages dropped when handlers competed.</strong><p>Handlers now claim the work, send without holding the order, then record the result; a stale claim expires on its own.</p></li>
+                  <li><strong>A retry could repeat a delivered message.</strong><p>Before any retry, the system checks whether the message already went out, and sends nothing when the answer is uncertain.</p></li>
+                  <li><strong>Strict security policy versus caching.</strong><p>Catalogue pages use a cacheable policy; checkout and account pages keep a strict per-request one.</p></li>
+                </ul>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 — TOTAL PRINT -->
+  <section class="project tp" id="total-print" aria-labelledby="tp-title">
+    <div class="wrap">
+      <div class="p-head">
+        <div class="reveal">
+          <p class="label">02 — Desktop software · Electron + React</p>
+          <h2 class="p-title" id="tp-title">
+            <span class="sr">TOTAL PRINT</span>
+            <span aria-hidden="true"><span class="line"><span style="--i:0">TOTAL</span></span><span class="line"><span style="--i:1">PRINT</span></span></span>
+          </h2>
+          <p class="p-lede rise" style="--d:.15s">Layout and costing software for wide-format print shops: plan how jobs fit on the roll, measure the material, and price the job before anything reaches the printer.</p>
+        </div>
+        <div class="chips rise" style="--d:.25s">
+          <span class="chip solid">Pre-release · no public download yet</span>
+          <span class="chip">Windows · macOS</span>
+          <span class="chip">Founder &amp; Sole Developer</span>
+        </div>
+      </div>
+
+      <figure class="film">
+        <video id="tp-film" controls playsinline preload="none" width="1920" height="1080" poster="assets/media/total-print-poster.jpg" aria-describedby="tp-film-note">
+          <source src="assets/media/total-print-film.mp4" type="video/mp4">
+          <a href="assets/media/total-print-film.mp4">Download the TOTAL PRINT film (MP4, 8.8 MB)</a>
+        </video>
+        <button class="play" type="button" hidden aria-label="Play the TOTAL PRINT product film, 1 minute 51 seconds, with sound">
+          <span><svg viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="18" fill="#fff"/><path d="M14.5 11.5v13l10.5-6.5z" fill="#0C1F1C"/></svg>Play film · 1:51</span>
+        </button>
+      </figure>
+      <p class="caption" id="tp-film-note">A film recorded from a pre-release build: Quick Quote, Roll Yield, Smart Layout and RollSense, run on fictional sample files, sizes, quantities and prices. Every figure on screen describes those samples only and is not a typical customer result. There is no public download yet.</p>
+
+      <div class="features rise">
+        <div><p class="label">01 · Quick Quote</p><h3>A price in seconds</h3><p>Roll width, sticker size and quantity in; material area, roll feed and price out, printer margins included.</p></div>
+        <div><p class="label">02 · Roll Yield</p><h3>What fits on a roll</h3><p>How many stickers fit on a roll the shop already has: across, rows and the feed length used.</p></div>
+        <div><p class="label">03 · Smart Layout</p><h3>Smart Nesting</h3><p>Mixed artwork nested together on one roll, with each size read from the file. The engine runs in a background worker.</p></div>
+        <div><p class="label">04 · RollSense</p><h3>The optimisation engine</h3><p>In the filmed sample job, switching it on moved utilisation from 70.7% to 72.3% and roll feed from 1.25 m to 1.23 m.</p></div>
+      </div>
+
+      <div class="shots">
+        <figure><div class="frame"><img src="assets/work/tp-build-smart-nesting.webp" width="1600" height="936" loading="lazy" decoding="async" alt="Smart Nesting screen with four imported sample PDFs. Each card shows the size read from the file (40 × 15, 10 × 6, 8 × 8 and 6 × 12 cm), an orientation setting and a copy count. The sidebar shows the build name TOTEX PRINT."></div><figcaption><b>1</b>Smart Nesting: sample PDFs, sizes read from each file</figcaption></figure>
+        <figure><div class="frame"><img src="assets/work/tp-build-results.webp" width="1086" height="698" loading="lazy" decoding="async" alt="Results for the same sample job: 1.27 m of media needed against an ideal of 1.23 m, total media area 1.22 m², feed length 1.23 m, 154 placed items and 72.3% layout utilisation, with Save, Export PDF and project buttons."></div><figcaption><b>2</b>Material usage and results for the same sample job</figcaption></figure>
+        <figure><div class="frame"><img src="assets/work/tp-build-layout-preview.webp" width="1184" height="611" loading="lazy" decoding="async" alt="Top of the layout preview for the 1.37 m roll, with centimetre rulers: two 40 × 15 cm banners across the roll and smaller items nested beside them, rotated items marked R."></div><figcaption><b>3</b>Optimised layout preview (top of the roll; R = rotated)</figcaption></figure>
+        <figure><div class="frame"><img src="assets/work/tp-build-quick-quote.webp" width="1184" height="756" loading="lazy" decoding="async" alt="Quick Quote results for a 1 m roll and ten 10 × 10 cm stickers: total media area 0.30 m² of roll material, feed length 0.30 m, total job value $3.00 at $10 per metre, above the layout preview."></div><figcaption><b>4</b>Quick Quote: ten 10 × 10 cm stickers on a 1 m roll. The 0.30 m² is roll material used, including margins; the printed artwork is 0.10 m².</figcaption></figure>
+      </div>
+      <p class="caption">The four screens come from one session of an earlier pre-release build, with fictional sample files, sizes, quantities and prices; the figures describe these samples only. That build still shows TOTEX PRINT, the working name in the codebase; Total Print is the public product name.</p>
+
+      <div class="p-body">
+        <dl class="facts rise">
+          <div><dt class="label">Problem</dt><dd>Print shops lose money on wasted roll media and on quotes worked out by hand. And if the layout on screen differs from the PDF sent to the printer, the wrong thing is printed on expensive material.</dd></div>
+          <div><dt class="label">Purpose</dt><dd>Import artwork, nest it on the roll, price the job and prepare a PDF for the RIP before anything is printed.</dd></div>
+          <div><dt class="label">Role</dt><dd>Founder &amp; Sole Developer</dd></div>
+          <div><dt class="label">Status</dt><dd>Pre-release · no public download yet. The website lists downloads as “Coming soon” (checked 15 Oct 2026).</dd></div>
+          <div><dt class="label">Stack</dt><dd>Electron 40 · React 19 · Web Workers · pdf-lib · ag-psd · Supabase</dd></div>
+          <div><dt class="label">Link</dt><dd><a class="ext" href="https://totalprintapp.com/" rel="noopener">totalprintapp.com</a></dd></div>
+        </dl>
+        <div class="rise" style="--d:.1s">
+          <ol class="highs">
+            <li><div><h3>A nesting engine, profiled and made faster</h3><p>Several first-fit-decreasing orderings plus maximal-rectangles packing and local refinement run in a Web Worker, off the interface thread. In the project's engine audit (Aug 2026), a fix cut layout time for a 5,066-item job from 3.97 s to 1.55 s (2.57×), with the same roll length and utilisation.<span class="q">Measured on that one workload by calling the engine directly on Windows 11 and Node 24, not through the interface.</span></p></div></li>
+            <li><div><h3>Preview and PDF from one placement module</h3><p>The on-screen layout and the exported PDF share one placement module. A cross-check test over 432 configurations verifies that placement stays consistent between the two within those tested cases.<span class="q">PDF export is still being hardened before release and is not claimed to be correct for every layout.</span></p></div></li>
+            <li><div><h3>Real files in, a print PDF out</h3><p>Imports PDF, AI, PSD, PNG and JPG and reads their true size. Exports a PDF of the layout with crop marks, PSD artwork rasterised at 300 dpi, and segmentation for the RIP.</p></div></li>
+          </ol>
+          <details class="tech">
+            <summary><span class="label">Technical details — architecture and testing</span></summary>
+            <div class="tech-body">
+              <div>
+                <h4 class="label">Architecture</h4>
+                <dl class="arch">
+                  <div><dt>Desktop app</dt><dd>Electron main process with an explicit IPC allowlist; React renderer; nesting and PDF parsing in Web Workers.</dd></div>
+                  <div><dt>Backend</dt><dd>Supabase database with row-level security and edge functions.</dd></div>
+                  <div><dt>Around it</dt><dd>A separate admin dashboard (Vite, React, TypeScript), the marketing website, and a signed update feed.</dd></div>
+                </dl>
+              </div>
+              <div>
+                <h4 class="label">Testing evidence</h4>
+                <ul class="dots">
+                  <li>125 automated tests in 8 suites <span class="note">(project records, Aug 2026)</span>.</li>
+                  <li>A contract test parses the main process and preload code, and fails if an IPC channel is handled but not allowlisted, or the reverse.</li>
+                  <li>Update manifests are signed; tampered or downgraded manifests are rejected under test.</li>
+                  <li>Scale tests cover jobs of 5,000+ items.</li>
+                </ul>
+              </div>
+              <p class="note span">The source code is private and is not shown here.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 — AGENT TRUST -->
+  <section class="sec lab" id="lab" aria-labelledby="lab-title">
+    <div class="wrap lab-grid">
+      <div>
+        <div class="reveal">
+          <p class="label">03 — Engineering lab · Open source</p>
+          <h2 class="p-title" id="lab-title"><span class="sr">Agent Trust</span><span aria-hidden="true"><span class="line"><span class="metal" style="--i:0">AGENT</span></span><span class="line"><span class="metal" style="--i:1">TRUST</span></span></span></h2>
+        </div>
+        <p class="p-lede rise">An authorization layer for AI agents. Instead of a trust score, every action has to be backed by verifiable, scoped and revocable authority, and a deterministic policy makes the decision.</p>
+        <ul class="plain rise" style="--d:.1s;margin-top:28px">
+          <li><strong>Verifiable identity</strong><p>Agents identify with W3C decentralized identifiers and prove possession of their key on every request.</p></li>
+          <li><strong>Scoped delegation</strong><p>Authority arrives as W3C Verifiable Credentials, and delegated authority can only narrow, never widen.</p></li>
+          <li><strong>Deterministic policy</strong><p>Rego policies compiled to WebAssembly run inside the service and return ALLOW, DENY or REQUIRE_APPROVAL with a reason code, failing closed.</p></li>
+        </ul>
+        <div class="lab-meta rise" style="--d:.15s">
+          <span>TypeScript · Fastify · Next.js · Redis · OPA (Wasm)</span>
+          <span>MIT licence · runs locally with Docker Compose · no hosted demo</span>
+          <a class="btn ghost ext" href="https://github.com/abuzaro21/agent-trust" rel="noopener">View the repository on GitHub</a>
+        </div>
+      </div>
+      <figure class="rise" style="--d:.2s">
+        <div class="frame"><img src="assets/work/at-deny-pipeline.webp" width="712" height="514" loading="lazy" decoding="async" alt="Agent Trust decision panel: DENIED, AUTHORITY_LIMIT_EXCEEDED. Requested 5000 SAR exceeds the delegated 500 SAR limit. Identity, credentials, authority, replay and audit pass; policy denies; execution does not run."></div>
+        <p class="caption">Same agent, same valid credential: a 5,000 SAR refund is denied because it exceeds the delegated 500 SAR limit. Screenshot from the repository's local demo.</p>
+      </figure>
+    </div>
+  </section>
+
+  <!-- INSIDE THE ENGINEERING -->
+  <section class="sec" id="engineering" aria-labelledby="eng-title" style="border-top:1px solid var(--rule)">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="h2 reveal" id="eng-title"><span class="sr">Inside the engineering</span><span aria-hidden="true"><span class="line"><span style="--i:0">Inside the</span></span><span class="line"><span style="--i:1" class="metal">engineering</span></span></span></h2>
+        <p class="sec-intro rise">Five decisions from the projects above: the problem, what I chose, and the evidence behind it. Everything here comes from the case studies on this page.</p>
+      </div>
+      <div class="eng rise" id="eng">
+        <div class="eng-tabs" role="tablist" aria-label="Engineering decisions" aria-orientation="vertical"></div>
+
+        <article class="eng-panel" id="eng-1" data-tab="Never sent twice" data-tag="WINK STORE">
+          <p class="label">WINK STORE · Event processing</p>
+          <h3>WhatsApp messages that are never sent twice</h3>
+          <div class="eng-cols">
+            <div><h4 class="label">Problem</h4><p>Order confirmations go out from background event handlers. Competing handlers dropped messages, and a retry after a crash could repeat one that had already been delivered.</p></div>
+            <div><h4 class="label">Decision</h4><p>A handler claims the work, sends without holding the order, then records the result; a stale claim expires on its own. Before any retry it checks whether the message already went out, and sends nothing when the answer is uncertain.</p></div>
+          </div>
+          <ol class="flow" aria-label="Message flow"><li>Claim</li><li>Send</li><li>Record</li><li class="alt">Retry: check first</li></ol>
+          <p class="evidence"><span class="label">Context</span>Listed under WINK STORE's challenges and solutions. The backend has <b>583 automated tests</b> (project audit, 27 Sep 2026), and the project keeps a recorded reliability and security review of 19 findings, each with its fix.</p>
+        </article>
+
+        <article class="eng-panel" id="eng-2" data-tab="Order lifecycle" data-tag="WINK STORE">
+          <p class="label">WINK STORE · Commerce workflows</p>
+          <h3>Every order step runs the matching commerce workflow</h3>
+          <div class="eng-cols">
+            <div><h4 class="label">Problem</h4><p>Cancelled orders kept their stock off sale, because the store's order states and the commerce engine's stock, payment and fulfilment records drifted apart.</p></div>
+            <div><h4 class="label">Decision</h4><p>Each lifecycle step staff take now runs the matching workflow in the commerce engine: fulfil, capture, complete, or return and restock. A dry-run-first repair script brings older orders back in line.</p></div>
+          </div>
+          <ol class="flow" aria-label="Order lifecycle"><li>Confirm</li><li>Fulfil</li><li>Capture</li><li>Complete</li><li class="alt">Cancel: return + restock</li></ol>
+          <p class="evidence"><span class="label">Context</span>Cash-on-delivery orders are verified with a one-time WhatsApp code before they enter this lifecycle. The store is pre-launch and runs on an illustrative demo catalogue.</p>
+        </article>
+
+        <article class="eng-panel" id="eng-3" data-tab="Nesting in a worker" data-tag="TOTAL PRINT">
+          <p class="label">TOTAL PRINT · Background workers</p>
+          <h3>A nesting engine that runs off the interface thread</h3>
+          <div class="eng-cols">
+            <div><h4 class="label">Problem</h4><p>Nesting thousands of pieces on a roll is heavy computation. Run on the interface thread, it would freeze the app while the shop waits for a layout.</p></div>
+            <div><h4 class="label">Decision</h4><p>The engine runs in a Web Worker: several first-fit-decreasing orderings, maximal-rectangles packing and local refinement. It was then profiled and the slow path fixed.</p></div>
+          </div>
+          <ol class="flow" aria-label="Nesting pipeline"><li>Read sizes from files</li><li>Order pieces</li><li>Pack rectangles</li><li>Refine</li><li>Preview</li></ol>
+          <p class="evidence"><span class="label">Evidence</span>In the project's engine audit (Aug 2026), layout time for a <b>5,066-item job fell from 3.97 s to 1.55 s (2.57×)</b>, with the same roll length and utilisation. One workload, measured by calling the engine directly on Windows 11 and Node 24, not through the interface.</p>
+        </article>
+
+        <article class="eng-panel" id="eng-4" data-tab="Shared placement" data-tag="TOTAL PRINT">
+          <p class="label">TOTAL PRINT · Testing</p>
+          <h3>Shared placement logic for preview and PDF export</h3>
+          <div class="eng-cols">
+            <div><h4 class="label">Problem</h4><p>If the layout on screen and the exported PDF disagree, the wrong thing is printed on expensive roll media.</p></div>
+            <div><h4 class="label">Decision</h4><p>The on-screen preview and the PDF exporter share one placement module instead of two copies of the same maths, and a test cross-checks them.</p></div>
+          </div>
+          <ol class="flow" aria-label="Placement"><li>Engine result</li><li>One placement module</li><li>Preview</li><li>PDF</li></ol>
+          <p class="evidence"><span class="label">Evidence</span>A cross-check test over <b>432 configurations</b> verifies that placement stays consistent between preview and PDF within those tested cases. PDF export is still being hardened before release; it is not claimed to be correct for every layout.</p>
+        </article>
+
+        <article class="eng-panel" id="eng-5" data-tab="Fail-closed policy" data-tag="AGENT TRUST">
+          <p class="label">AGENT TRUST · Authorization</p>
+          <h3>Authority you can verify, decided by a policy that fails closed</h3>
+          <div class="eng-cols">
+            <div><h4 class="label">Problem</h4><p>A trust score says nothing about what an AI agent is actually allowed to do, or who allowed it.</p></div>
+            <div><h4 class="label">Decision</h4><p>Agents prove their identity with decentralized identifiers, carry scoped authority as Verifiable Credentials that can only narrow when delegated, and a Rego policy compiled to WebAssembly returns ALLOW, DENY or REQUIRE_APPROVAL with a reason.</p></div>
+          </div>
+          <ol class="flow" aria-label="Decision pipeline"><li>Identity</li><li>Credential</li><li>Authority</li><li>Policy</li><li class="alt">Deny by default</li></ol>
+          <p class="evidence"><span class="label">Evidence</span>In the repository's local demo, the same agent with the same valid credential is <b>denied a 5,000 SAR refund</b> because it exceeds its delegated 500 SAR limit. Open source under the MIT licence; no hosted demo.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="sec" id="services" aria-labelledby="services-title" style="border-top:1px solid var(--rule)">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="h2 reveal" id="services-title"><span class="sr">Fixed-scope work, clearly priced.</span><span aria-hidden="true"><span class="line"><span style="--i:0">Fixed-scope</span></span><span class="line"><span style="--i:1">work.</span></span><em class="line"><span style="--i:2">Clearly <i>priced.</i></span></em></span></h2>
+        <p class="sec-intro rise">Small, well-defined jobs with a fixed price and deadline agreed in writing before any work begins. Prices are starting points.</p>
+      </div>
+      <div class="svc-list rise">
+        <details class="svc" name="svc" open>
+          <summary><span class="n" aria-hidden="true">01</span><h3>React / Next.js bug fixes</h3><span class="price">Starting at $150</span><span class="tog" aria-hidden="true"></span></summary>
+          <div class="svc-body"><div class="svc-inner">
+            <p>A clearly defined bug in an existing React or Next.js app, traced to its root cause and fixed in a pull request with a regression test, so it stays fixed.</p>
+            <div><h4 class="label">You receive</h4><ul><li>The root cause, explained in plain words</li><li>The fix, in a pull request on your repository</li><li>A regression test that fails without the fix</li><li>Notes on how to verify it</li></ul></div>
+          </div></div>
+        </details>
+        <details class="svc" name="svc">
+          <summary><span class="n" aria-hidden="true">02</span><h3>API and webhook integrations</h3><span class="price">Starting at $250</span><span class="tog" aria-hidden="true"></span></summary>
+          <div class="svc-body"><div class="svc-inner">
+            <p>Connect a third-party API or receive its webhooks, with signature verification, safe retries, duplicate protection and tests.</p>
+            <div><h4 class="label">You receive</h4><ul><li>Signature verification on incoming webhooks</li><li>Safe retries that never repeat a side effect</li><li>Duplicate protection</li><li>Tests and written handover notes</li></ul></div>
+          </div></div>
+        </details>
+        <details class="svc" name="svc">
+          <summary><span class="n" aria-hidden="true">03</span><h3>E-commerce improvements</h3><span class="price">Individually quoted</span><span class="tog" aria-hidden="true"></span></summary>
+          <div class="svc-body"><div class="svc-inner">
+            <p>Checkout, cart, catalogue and order-flow work on an existing store, scoped and priced individually once I have seen the codebase and what needs to change.</p>
+            <div><h4 class="label">You receive</h4><ul><li>A written scope with a fixed price and deadline</li><li>Work on a branch, with tests covering the change</li><li>A pull request and handover notes</li></ul></div>
+          </div></div>
+        </details>
+      </div>
+      <div class="terms rise">
+        <p>The final fixed price and deadline are agreed in writing after I review your requirements, before any work begins. If the scope changes, we agree the change in writing first.</p>
+        <ul><li>Pull request with tests</li><li>Written handover notes</li><li>One round of revisions within scope</li></ul>
+        <a class="btn primary" href="https://wa.me/972593049788?text=Hi%20Ibrahem%2C%20I%27d%20like%20to%20discuss%20a%20software%20development%20project." target="_blank" rel="noopener noreferrer"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2c.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>Discuss a project on WhatsApp<span class="sr"> (opens WhatsApp)</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW I WORK -->
+  <section class="sec" id="process" aria-labelledby="process-title" style="border-top:1px solid var(--rule)">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="h2 reveal" id="process-title"><span class="sr">How I work: clear scope before any code.</span><span aria-hidden="true"><span class="line"><span style="--i:0">How I work</span></span><em class="line"><span style="--i:1">Clear scope <i>before any code.</i></span></em></span></h2>
+      </div>
+      <ol class="steps rise">
+        <li><strong>You describe the problem</strong><p>The issue, your stack, and access to a branch or staging environment if possible.</p></li>
+        <li><strong>We agree scope, price and deadline</strong><p>I send a written scope with a fixed price and deadline. Nothing starts until you approve it.</p></li>
+        <li><strong>I build and test</strong><p>The work happens on a branch, with tests covering the change.</p></li>
+        <li><strong>Pull request and handover</strong><p>A pull request plus notes on what changed, why, and how to verify it.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <h2 class="h2 reveal" id="contact-title"><span class="sr">Have a workflow that needs fixing?</span><span aria-hidden="true"><span class="line"><span style="--i:0" class="metal">Have a workflow</span></span><em class="line"><span style="--i:1">that needs <i>fixing?</i></span></em></span></h2>
+      <div class="contact-grid rise">
+        <div>
+          <p class="label" style="margin-bottom:14px">WhatsApp · preferred</p>
+          <a class="mail" href="https://wa.me/972593049788?text=Hi%20Ibrahem%2C%20I%27d%20like%20to%20discuss%20a%20software%20development%20project." target="_blank" rel="noopener noreferrer">Discuss a project on WhatsApp<span class="sr"> (opens WhatsApp)</span> <span aria-hidden="true">→</span></a>
+          <p class="contact-num">+972 59 304 9788</p>
+        </div>
+        <div class="contact-meta">
+          <p>Send a short description of the problem and your stack. I’ll reply with questions or a written scope.</p>
+          <!-- CONTACT CONFIG: optional email paragraph goes here (see the note at the top of this file). -->
+          <p>Palestine · UTC+2 / UTC+3</p>
+          <div class="cta">
+            <a class="btn primary" href="https://wa.me/972593049788?text=Hi%20Ibrahem%2C%20I%27d%20like%20to%20discuss%20a%20software%20development%20project." target="_blank" rel="noopener noreferrer"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2c.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>Discuss a project on WhatsApp<span class="sr"> (opens WhatsApp)</span></a>
+            <a class="btn ghost ext" href="https://github.com/abuzaro21" rel="me noopener">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Ibrahem Marwani</span>
+    <span>WINK STORE is pre-launch. TOTAL PRINT is pre-release.</span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="assets/js/site.js" defer></script>
+<script src="assets/js/portrait.js" defer></script>
+</body>
+</html>
