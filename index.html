@@ -2,8 +2,8 @@
 <!--
   Portfolio V3. Static site; every path is relative, so it works under /portfolio/ on GitHub Pages.
   CONTACT CONFIG: WhatsApp is the primary contact (every link uses the same wa.me URL with a prefilled message).
-  EMAIL (optional): to add one, put this paragraph at the CONTACT CONFIG comment in the contact section:
-  <p data-contact="email">Email: <a href="mailto:ADDRESS?subject=Project%20brief">ADDRESS</a></p>
+  Email is the secondary contact: one paragraph (.contact-email) in the contact section; keep the address identical in
+  the mailto link, the visible text and data-copy, here and in ar/index.html.
 -->
 <html lang="en">
 <head>
@@ -12,12 +12,16 @@
 <title>Ibrahem Marwani — I build real software</title>
 <meta name="author" content="Ibrahem Marwani">
 <meta name="description" content="Independent full-stack developer. Full-stack applications, e-commerce systems, desktop software, APIs and automation. Fixed-scope work from $150, with tests and a written handover.">
+<link rel="canonical" href="https://abuzaro21.github.io/portfolio/">
+<link rel="alternate" hreflang="en" href="https://abuzaro21.github.io/portfolio/">
+<link rel="alternate" hreflang="ar" href="https://abuzaro21.github.io/portfolio/ar/">
+<link rel="alternate" hreflang="x-default" href="https://abuzaro21.github.io/portfolio/">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#0A0B0C">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230A0B0C'/%3E%3Crect x='9' y='9' width='14' height='14' rx='2' fill='%23D9DBDE'/%3E%3C/svg%3E">
 <link rel="preload" href="assets/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/instrument-serif-400-italic.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/portrait/particles.bin" as="fetch" crossorigin>
+<link rel="preload" href="assets/portrait/particles.json" as="fetch" crossorigin>
 <link rel="stylesheet" href="assets/css/site.css">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Ibrahem Marwani","jobTitle":"Full-stack developer","sameAs":["https://github.com/abuzaro21"]}</script>
 <script>document.documentElement.classList.add('js')</script>
@@ -38,8 +42,11 @@
         <li aria-hidden="true" class="ink-bar" id="inkbar"></li>
       </ul>
     </nav>
+    <div class="nav-end">
+    <nav class="lang" aria-label="Language"><a href="./" hreflang="en" lang="en" aria-current="page">EN</a><a href="ar/" hreflang="ar" lang="ar">عربي<span class="sr" lang="en"> (Arabic)</span></a></nav>
     <a class="btn primary cta-desk" href="https://wa.me/972593049788?text=Hi%20Ibrahem%2C%20I%27d%20like%20to%20discuss%20a%20software%20development%20project." target="_blank" rel="noopener noreferrer"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2c.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>Start a project<span class="sr"> on WhatsApp (opens WhatsApp)</span></a>
     <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="sheet"><b aria-hidden="true"></b>Menu</button>
+    </div>
   </div>
 </header>
 <div class="sheet" id="sheet">
@@ -58,7 +65,7 @@
 <main id="main">
   <!-- HERO -->
   <section class="hero" id="top" aria-labelledby="hero-title">
-    <div class="portrait" role="img" aria-label="Portrait of Ibrahem Marwani"><canvas id="portrait" data-src="assets/portrait/particles.bin" aria-hidden="true"></canvas></div>
+    <div class="portrait" role="img" aria-label="Portrait of Ibrahem Marwani"><canvas id="portrait" data-src="assets/portrait/particles.json" aria-hidden="true"></canvas></div>
     <div class="wrap">
       <div class="copy">
         <div class="eyebrow fade" style="--d:.1s">
@@ -436,10 +443,10 @@
           <p class="label" style="margin-bottom:14px">WhatsApp · preferred</p>
           <a class="mail" href="https://wa.me/972593049788?text=Hi%20Ibrahem%2C%20I%27d%20like%20to%20discuss%20a%20software%20development%20project." target="_blank" rel="noopener noreferrer">Discuss a project on WhatsApp<span class="sr"> (opens WhatsApp)</span> <span aria-hidden="true">→</span></a>
           <p class="contact-num">+972 59 304 9788</p>
+          <p class="contact-email"><span class="label">Email</span><a href="mailto:ibrahem.marwani.dev@gmail.com?subject=Project%20enquiry">ibrahem.marwani.dev@gmail.com</a><button class="copy-email" type="button" data-copy="ibrahem.marwani.dev@gmail.com" data-done="Copied" hidden>Copy<span class="sr"> email address</span></button><span class="sr" role="status"></span></p>
         </div>
         <div class="contact-meta">
           <p>Send a short description of the problem and your stack. I’ll reply with questions or a written scope.</p>
-          <!-- CONTACT CONFIG: optional email paragraph goes here (see the note at the top of this file). -->
           <p>Palestine · UTC+2 / UTC+3</p>
           <div class="cta">
             <a class="btn primary" href="https://wa.me/972593049788?text=Hi%20Ibrahem%2C%20I%27d%20like%20to%20discuss%20a%20software%20development%20project." target="_blank" rel="noopener noreferrer"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2c.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>Discuss a project on WhatsApp<span class="sr"> (opens WhatsApp)</span></a>

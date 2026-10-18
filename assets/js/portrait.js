@@ -1,4 +1,4 @@
-// Hero portrait (Canvas 2D): the whole subject is drawn as image-derived particles from assets/portrait/particles.bin.
+// Hero portrait (Canvas 2D): the whole subject is drawn as image-derived particles from assets/portrait/particles.json.
 //
 // Moiré: a regular dot lattice with gaps turns into rings and curves whenever the page is resampled (OS scaling, zoom).
 // Every particle therefore sits at a deterministic random offset of ±½ its pitch on each axis around its cell centre.
@@ -28,8 +28,11 @@
   var state = 'loading', t0 = 0, last = 0, raf = 0, visible = true;
   var ptr = { x: 0, y: 0, on: false };
 
-  fetch(cv.getAttribute('data-src')).then(function (r) { if (!r.ok) throw r.status; return r.arrayBuffer(); }).then(function (ab) {
-    data = parse(ab);
+  // the data ships as base64 JSON, not a .bin: download managers grab a preloaded application/octet-stream .bin as a file
+  fetch(cv.getAttribute('data-src')).then(function (r) { if (!r.ok) throw r.status; return r.json(); }).then(function (b64) {
+    var str = atob(b64), u8 = new Uint8Array(str.length);
+    for (var i = 0; i < str.length; i++) u8[i] = str.charCodeAt(i);
+    data = parse(u8.buffer);
     layout();
     box.classList.add('ready');
     if (reduce) { state = 'settled'; renderAll(); return; }

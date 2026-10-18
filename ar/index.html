@@ -1,0 +1,475 @@
+<!doctype html>
+<!--
+  Portfolio V3, Arabic edition (/portfolio/ar/). Same structure, ids, media and scripts as the English page (../),
+  with Arabic copy, dir="rtl" and assets/css/ar.css. Every path is relative; the films and posters are the English
+  edition's files (../assets/media/), never copies.
+  CONTACT CONFIG: WhatsApp is the primary contact (every link uses the same wa.me URL with a prefilled Arabic message).
+  Email is the secondary contact: one paragraph (.contact-email) in the contact section; keep the address identical in
+  the mailto link, the visible text and data-copy, here and in ../index.html.
+-->
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ibrahem Marwani — أبني برمجيات حقيقية</title>
+<meta name="author" content="Ibrahem Marwani">
+<meta name="description" content="مطوّر برمجيات متكامل (Full-Stack) مستقل: تطبيقات ويب، وأنظمة تجارة إلكترونية، وبرامج سطح المكتب، وواجهات API وأتمتة. مشاريع محددة النطاق تبدأ من ‎$150، مع اختبارات وملاحظات تسليم مكتوبة.">
+<link rel="canonical" href="https://abuzaro21.github.io/portfolio/ar/">
+<link rel="alternate" hreflang="en" href="https://abuzaro21.github.io/portfolio/">
+<link rel="alternate" hreflang="ar" href="https://abuzaro21.github.io/portfolio/ar/">
+<link rel="alternate" hreflang="x-default" href="https://abuzaro21.github.io/portfolio/">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0A0B0C">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230A0B0C'/%3E%3Crect x='9' y='9' width='14' height='14' rx='2' fill='%23D9DBDE'/%3E%3C/svg%3E">
+<link rel="preload" href="../assets/fonts/ibm-plex-sans-arabic-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/ibm-plex-sans-arabic-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/portrait/particles.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="../assets/css/site.css">
+<link rel="stylesheet" href="../assets/css/ar.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Ibrahem Marwani","jobTitle":"مطوّر برمجيات متكامل (Full-Stack)","sameAs":["https://github.com/abuzaro21"]}</script>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#main">تخطَّ إلى المحتوى</a>
+
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" lang="en" aria-label="Ibrahem Marwani"><i aria-hidden="true"></i>Ibrahem Marwani</a>
+    <nav aria-label="القائمة الرئيسية">
+      <ul class="links" id="links">
+        <li><a href="#work">الأعمال</a></li>
+        <li><a href="#engineering">الهندسة</a></li>
+        <li><a href="#services">الخدمات</a></li>
+        <li><a href="#process">آلية العمل</a></li>
+        <li><a href="#contact">التواصل</a></li>
+        <li aria-hidden="true" class="ink-bar" id="inkbar"></li>
+      </ul>
+    </nav>
+    <div class="nav-end">
+    <nav class="lang" aria-label="اللغة"><a href="../" hreflang="en" lang="en">EN<span class="sr"> (English)</span></a><a href="./" hreflang="ar" lang="ar" aria-current="page">عربي</a></nav>
+    <a class="btn primary cta-desk" href="https://wa.me/972593049788?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D9%88%D8%AF%D9%91%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D9%85%D8%B4%D8%B1%D9%88%D8%B9%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A8%D8%B1%D9%85%D8%AC%D9%8A." target="_blank" rel="noopener noreferrer"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2c.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>ابدأ مشروعك<span class="sr"> عبر واتساب (يُفتح في واتساب)</span></a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="sheet"><b aria-hidden="true"></b>القائمة</button>
+    </div>
+  </div>
+</header>
+<div class="sheet" id="sheet">
+  <nav aria-label="قائمة الجوال">
+    <ul>
+      <li><a href="#work">الأعمال <span class="ltr">01–03</span></a></li>
+      <li><a href="#engineering">الهندسة <span>قرارات</span></a></li>
+      <li><a href="#services">الخدمات <span>من <span class="ltr">$150</span></span></a></li>
+      <li><a href="#process">آلية العمل <span>4 خطوات</span></a></li>
+      <li><a href="#contact">التواصل <span>واتساب · البريد</span></a></li>
+    </ul>
+    <a class="btn primary" href="https://wa.me/972593049788?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D9%88%D8%AF%D9%91%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D9%85%D8%B4%D8%B1%D9%88%D8%B9%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A8%D8%B1%D9%85%D8%AC%D9%8A." target="_blank" rel="noopener noreferrer"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2c.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>ناقش مشروعك عبر واتساب<span class="sr"> (يُفتح في واتساب)</span></a>
+  </nav>
+</div>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="portrait" role="img" aria-label="صورة شخصية لـ Ibrahem Marwani"><canvas id="portrait" data-src="../assets/portrait/particles.json" aria-hidden="true"></canvas></div>
+    <div class="wrap">
+      <div class="copy">
+        <div class="eyebrow fade" style="--d:.1s">
+          <span class="status">متاح لمشاريع محددة النطاق</span>
+          <span class="label">مطوّر برمجيات متكامل (Full-Stack) · فلسطين · <span class="ltr">UTC+2 / UTC+3</span></span>
+        </div>
+        <h1 class="h1" id="hero-title">
+          <span class="sr">أبني برمجيات حقيقية، وأحلّ أصعب ما فيها.</span>
+          <span aria-hidden="true">
+            <span class="line"><span style="--i:0" class="metal" data-text="أبني برمجيات">أبني برمجيات</span></span>
+            <span class="line"><span style="--i:1" class="metal" data-text="حقيقية.">حقيقية.</span></span>
+            <span class="line serif-line"><span style="--i:2">وأحلّ <em>أصعب ما فيها.</em></span></span>
+          </span>
+        </h1>
+        <div class="fade" style="--d:.9s">
+          <p class="support"><b>تطبيقات ويب متكاملة، وأنظمة تجارة إلكترونية، وبرامج سطح المكتب، وواجهات API وأتمتة.</b> المؤسس والمطوّر الوحيد لمنتجَي WINK STORE وTOTAL PRINT، وقد بنيتُ كلًّا منهما بالكامل.</p>
+          <div class="cta">
+            <a class="btn primary" href="#services">الخدمات والأسعار <span class="arr" aria-hidden="true">←</span></a>
+            <a class="btn ghost" href="#work">أعمال مختارة</a>
+          </div>
+        </div>
+        <div class="fade" style="--d:1.05s" role="group" aria-labelledby="offer-title">
+          <p class="sr" id="offer-title">مشاريع محددة النطاق بسعر واضح</p>
+          <ul class="offer">
+            <li><span>إصلاح أخطاء React / Next.js</span><b>من <span class="ltr">$150</span></b></li>
+            <li><span>تكامل واجهات API وWebhooks</span><b>من <span class="ltr">$250</span></b></li>
+            <li><span>تحسينات متاجر التجارة الإلكترونية</span><b>بعرض سعر مخصّص</b></li>
+          </ul>
+          <p class="offer-note">نتفق كتابيًا على السعر النهائي الثابت وموعد التسليم بعد أن أراجع متطلباتك.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SELECTED WORK -->
+  <section class="work-intro" id="work" aria-labelledby="work-title">
+    <div class="wrap">
+      <div class="rise">
+        <p class="label" style="margin-bottom:18px"><span class="ltr">01–03</span> — أعمال مختارة</p>
+        <h2 id="work-title">منتجان أتولّى كل جوانبهما، <em>ومختبر هندسي مفتوح المصدر.</em></h2>
+      </div>
+      <ol class="index rise" style="--d:.15s">
+        <li><a href="#wink"><span class="n">01</span><span class="t" lang="en">WINK STORE</span><span class="a" aria-hidden="true">↓</span><span class="d">متجر عربي أولًا · ويب وتطبيق جوال ولوحة إدارة</span></a></li>
+        <li><a href="#total-print"><span class="n">02</span><span class="t" lang="en">TOTAL PRINT</span><span class="a" aria-hidden="true">↓</span><span class="d">برنامج سطح مكتب لتخطيط أعمال الطباعة وتسعيرها</span></a></li>
+        <li><a href="#lab"><span class="n">03</span><span class="t" lang="en">AGENT TRUST</span><span class="a" aria-hidden="true">↓</span><span class="d">مختبر هندسي · مفتوح المصدر</span></a></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 01 — WINK STORE -->
+  <section class="project wink" id="wink" data-nav="light" aria-labelledby="wink-title">
+    <div class="wrap">
+      <div class="p-head">
+        <div class="reveal">
+          <p class="label">01 — تجارة إلكترونية · عربي أولًا</p>
+          <h2 class="p-title" id="wink-title" lang="en">
+            <span class="sr">WINK STORE</span>
+            <span aria-hidden="true"><span class="line"><span style="--i:0">WINK</span></span><span class="line"><span style="--i:1">STORE</span></span></span>
+          </h2>
+          <p class="p-lede rise" style="--d:.15s">متجر لمنتجات التجميل في فلسطين، صُمّم بالعربية ومن اليمين إلى اليسار منذ البداية، مع دفع عند الاستلام وتأكيد موثَّق لكل طلب. واجهة خلفية تجارية واحدة تشغّل المتجر على الويب، وتطبيق iOS وAndroid مبنيًّا على Expo، ولوحة الإدارة.</p>
+        </div>
+        <div class="chips rise" style="--d:.25s">
+          <span class="chip solid">قبل الإطلاق</span>
+          <span class="chip">بيانات عرض توضيحية</span>
+          <span class="chip">المؤسس والمطوّر الوحيد</span>
+        </div>
+      </div>
+
+      <figure class="film">
+        <video id="wink-film" controls playsinline preload="none" width="1920" height="1080" poster="../assets/media/wink-store-poster.jpg" aria-describedby="wink-film-note">
+          <source src="../assets/media/wink-store-film.mp4" type="video/mp4">
+          <a href="../assets/media/wink-store-film.mp4">تنزيل فيلم WINK STORE (MP4، 3.3 ميغابايت)</a>
+        </video>
+        <button class="play" type="button" hidden aria-label="تشغيل الفيلم التعريفي لـ WINK STORE، مدته 25 ثانية، مع صوت">
+          <span><svg viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="18" fill="#fff"/><path d="M14.5 11.5v13l10.5-6.5z" fill="#173F33"/></svg>تشغيل الفيلم · 0:25</span>
+        </button>
+      </figure>
+      <p class="caption" id="wink-film-note">فيلم مدته 25 ثانية، مسجَّل من المتجر الإلكتروني وتطبيق الجوال أثناء تشغيلهما فعليًا. المنتجات والأسعار والطلب الظاهر فيه من كتالوج عرض توضيحي، ولا يجري فيه أي دفع أو توصيل حقيقي. لم يُطلق المتجر بعد، ولم تُنشر التطبيقات في متاجر التطبيقات حتى الآن. النصوص الظاهرة في الفيلم بالإنجليزية، والصوت موسيقى ومؤثرات بلا تعليق صوتي.</p>
+
+      <div class="p-body">
+        <dl class="facts rise">
+          <div><dt class="label">المشكلة</dt><dd>الدفع بالبطاقة لا يصلح خيارًا أساسيًا للمتسوقين في فلسطين، لذلك يدفعون نقدًا عند الباب، وكل طلب وهمي يكلّف رحلة توصيل حقيقية. وكان على المتجر أيضًا أن يعمل بالعربية ومن اليمين إلى اليسار منذ اليوم الأول.</dd></div>
+          <div><dt class="label">الهدف</dt><dd>تمكين متجر صغير من استقبال طلبات دفع عند الاستلام موثَّقة عبر الويب والجوال، وإدارة تجهيزها وتوصيلها من لوحة تحكم عربية واحدة.</dd></div>
+          <div><dt class="label">الدور</dt><dd>المؤسس والمطوّر الوحيد</dd></div>
+          <div><dt class="label">الحالة</dt><dd>قبل الإطلاق · كتالوج توضيحي · التطبيقات غير منشورة بعد في متاجر التطبيقات</dd></div>
+          <div><dt class="label">التقنيات</dt><dd>Medusa v2 · Next.js 15 · React 19 · Expo 54 · PostgreSQL · Redis · Meilisearch</dd></div>
+          <div><dt class="label">الشيفرة المصدرية</dt><dd>مستودع خاص، غير معروض</dd></div>
+        </dl>
+        <div class="rise" style="--d:.1s">
+          <ol class="highs">
+            <li><div><h3>واجهة خلفية تجارية واحدة للويب والجوال والإدارة</h3><p>يتشارك متجر Next.js وتطبيق Expo ولوحة الإدارة العربية واجهةَ Medusa v2 البرمجية نفسها، وحزمةً واحدة لرموز التصميم، وقواعد تحقّق مشتركة، فتبقى قواعد العمل واحدة على كل المنصات.</p></div></li>
+            <li><div><h3>دفع عند الاستلام مع تأكيد الطلب</h3><p>يؤكد المتسوق كل طلب برمز صالح لمرة واحدة يصله عبر واتساب، مع حماية من الروبوتات. ثم ينقل فريق المتجر الطلب عبر دورة حياة متتبَّعة، ويواكب المخزون وحالة الدفع وحالة الطلب في المحرك التجاري كل خطوة.</p></div></li>
+            <li><div><h3>معالجة موثوقة للأحداث ورسائل واتساب</h3><p>ترسل معالجات أحداث تعمل في الخلفية تأكيدات الطلبات وبيانات المندوب، بوتيرة تشبه إرسال شخص حقيقي، ولا ترسل الرسالة نفسها مرتين أبدًا، حتى إذا أُعيد تشغيل المعالج بعد تعطّل.</p></div></li>
+          </ol>
+          <details class="tech">
+            <summary><span class="label">التفاصيل التقنية — البنية والتحديات والاختبارات</span></summary>
+            <div class="tech-body">
+              <div>
+                <h4 class="label">البنية</h4>
+                <dl class="arch">
+                  <div><dt>المتجر على الويب</dt><dd>Next.js 15 وReact 19 وTailwind CSS 4، بواجهة عربية من اليمين إلى اليسار.</dd></div>
+                  <div><dt>تطبيق الجوال</dt><dd>Expo 54 وReact Native وExpo Router. تطبيق iOS وAndroid من قاعدة شيفرة واحدة.</dd></div>
+                  <div><dt>لوحة الإدارة</dt><dd>Medusa Admin موسَّعة بصفحات عربية مخصصة: قائمة الطلبات، والتحليلات، وإعداد الرسائل، وسياسات المتجر.</dd></div>
+                  <div><dt>الواجهة الخلفية</dt><dd>Medusa v2 على PostgreSQL، مع Redis للأحداث وسير العمل والأقفال.</dd></div>
+                  <div><dt>الخدمات</dt><dd>Meilisearch · واتساب عبر Evolution API · إشعارات Expo · تخزين متوافق مع S3 · Cloudflare Turnstile.</dd></div>
+                </dl>
+              </div>
+              <div>
+                <h4 class="label">أدلة الاختبار</h4>
+                <ul class="dots">
+                  <li>814 اختبارًا آليًا: 583 للواجهة الخلفية، و93 للويب، و138 للجوال <span class="note">(تدقيق المشروع، 27 سبتمبر 2026)</span>.</li>
+                  <li>تكامل مستمر (CI) مع كل طلب دمج: فحص الأنواع، والتدقيق البرمجي، واختبارات الوحدات، وبناء نسخة الإنتاج لكل تطبيق؛ وفحوص تكامل على PostgreSQL 16؛ وتدقيق للاعتماديات.</li>
+                  <li>اختبارات انحدار بصري على ثلاثة مقاسات هواتف، للويب والتطبيق.</li>
+                  <li>مراجعة موثَّقة للموثوقية والأمان: 19 ملاحظة، لكلٍّ منها إصلاحها ودليله.</li>
+                </ul>
+              </div>
+              <div class="span">
+                <h4 class="label">التحديات والحلول</h4>
+                <ul class="plain">
+                  <li><strong>الطلبات الملغاة كانت تُبقي المخزون خارج البيع.</strong><p>أصبحت كل خطوة في دورة حياة الطلب تشغّل سير العمل المقابل في المحرك التجاري (التجهيز، والتحصيل، والإكمال، والإرجاع مع إعادة المخزون)، ويصحّح سكربت إصلاح الطلبات القديمة بعد تشغيل تجريبي أول لا يغيّر شيئًا.</p></li>
+                  <li><strong>رسائل كانت تضيع عند تنافس المعالجات.</strong><p>أصبح المعالج يحجز المهمة، ثم يرسل دون أن يُبقي الطلب مقفلًا، ثم يسجّل النتيجة؛ وتنتهي صلاحية الحجز المتروك تلقائيًا.</p></li>
+                  <li><strong>إعادة المحاولة قد تكرر رسالة سبق تسليمها.</strong><p>قبل أي إعادة محاولة، يتحقق النظام مما إذا كانت الرسالة قد أُرسلت فعلًا، ولا يرسل شيئًا إذا لم تكن الإجابة مؤكدة.</p></li>
+                  <li><strong>سياسة أمان صارمة مقابل التخزين المؤقت.</strong><p>تستخدم صفحات الكتالوج سياسة قابلة للتخزين المؤقت، بينما تحتفظ صفحات الدفع والحساب بسياسة صارمة لكل طلب.</p></li>
+                </ul>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 — TOTAL PRINT -->
+  <section class="project tp" id="total-print" aria-labelledby="tp-title">
+    <div class="wrap">
+      <div class="p-head">
+        <div class="reveal">
+          <p class="label">02 — برنامج سطح مكتب · Electron + React</p>
+          <h2 class="p-title" id="tp-title" lang="en">
+            <span class="sr">TOTAL PRINT</span>
+            <span aria-hidden="true"><span class="line"><span style="--i:0">TOTAL</span></span><span class="line"><span style="--i:1">PRINT</span></span></span>
+          </h2>
+          <p class="p-lede rise" style="--d:.15s">برنامج لتخطيط أعمال الطباعة واسعة النطاق وتسعيرها: يخطط توزيع الأعمال على الرول، ويحسب استهلاك الخامة، ويسعّر العمل قبل أن يصل أي شيء إلى الطابعة.</p>
+        </div>
+        <div class="chips rise" style="--d:.25s">
+          <span class="chip solid">قبل الإصدار · لا يتوفر تنزيل عام بعد</span>
+          <span class="chip">Windows · macOS</span>
+          <span class="chip">المؤسس والمطوّر الوحيد</span>
+        </div>
+      </div>
+
+      <figure class="film">
+        <video id="tp-film" controls playsinline preload="none" width="1920" height="1080" poster="../assets/media/total-print-poster.jpg" aria-describedby="tp-film-note">
+          <source src="../assets/media/total-print-film.mp4" type="video/mp4">
+          <a href="../assets/media/total-print-film.mp4">تنزيل فيلم TOTAL PRINT (MP4، 8.8 ميغابايت)</a>
+        </video>
+        <button class="play" type="button" hidden aria-label="تشغيل الفيلم التعريفي لـ TOTAL PRINT، مدته دقيقة و51 ثانية، مع صوت">
+          <span><svg viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="18" fill="#fff"/><path d="M14.5 11.5v13l10.5-6.5z" fill="#0C1F1C"/></svg>تشغيل الفيلم · 1:51</span>
+        </button>
+      </figure>
+      <p class="caption" id="tp-film-note">فيلم مسجَّل من نسخة سابقة للإصدار يعرض Quick Quote وRoll Yield وSmart Layout وRollSense، على ملفات ومقاسات وكميات وأسعار عيّنة افتراضية. كل رقم يظهر على الشاشة يصف هذه العيّنات وحدها، ولا يمثّل نتيجة معتادة لدى العملاء. لا يتوفر تنزيل عام بعد. النصوص الظاهرة في الفيلم بالإنجليزية، والصوت موسيقى ومؤثرات بلا تعليق صوتي.</p>
+
+      <div class="features rise">
+        <div><p class="label">01 · Quick Quote</p><h3>سعر خلال ثوانٍ</h3><p>تُدخل عرض الرول ومقاس الملصق والكمية، فتحصل على مساحة الخامة وطول الرول المستخدم والسعر، مع احتساب هوامش الطابعة.</p></div>
+        <div><p class="label">02 · Roll Yield</p><h3>ما يتسع له الرول</h3><p>عدد الملصقات التي يتسع لها رول موجود لدى المطبعة: عددها على العرض، وعدد الصفوف، وطول الرول المستخدم.</p></div>
+        <div><p class="label">03 · Smart Layout</p><h3>الترتيب الذكي للتصاميم</h3><p>يرتّب تصاميم بمقاسات مختلفة معًا على رول واحد، ويقرأ مقاس كل تصميم من ملفه. ويعمل المحرك في الخلفية (Web Worker).</p></div>
+        <div><p class="label">04 · RollSense</p><h3>محرك التحسين</h3><p>في عيّنة العمل المصوَّرة، رفع تفعيله نسبة الاستغلال من <span class="ltr">70.7%</span> إلى <span class="ltr">72.3%</span>، وخفّض طول الرول المستخدم من 1.25 م إلى 1.23 م.</p></div>
+      </div>
+
+      <div class="shots">
+        <figure><div class="frame"><img src="../assets/work/tp-build-smart-nesting.webp" width="1600" height="936" loading="lazy" decoding="async" alt="شاشة الترتيب الذكي للتصاميم (Smart Nesting) وفيها أربعة ملفات PDF عيّنة مستوردة. تعرض كل بطاقة المقاس المقروء من الملف (40 × 15 و10 × 6 و8 × 8 و6 × 12 سم)، وإعداد الاتجاه، وعدد النسخ. ويظهر في الشريط الجانبي اسم النسخة TOTEX PRINT."></div><figcaption><b>1</b>الترتيب الذكي للتصاميم: ملفات PDF عيّنة، ومقاس كلٍّ منها مقروء من الملف</figcaption></figure>
+        <figure><div class="frame"><img src="../assets/work/tp-build-results.webp" width="1086" height="698" loading="lazy" decoding="async" alt="نتائج عيّنة العمل نفسها: الخامة المطلوبة 1.27 م مقابل 1.23 م في الحالة المثالية، وإجمالي مساحة الخامة 1.22 م²، وطول الرول المستخدم 1.23 م، و154 عنصرًا موضوعًا، ونسبة استغلال التخطيط ‎72.3%، مع أزرار الحفظ وتصدير PDF والمشروع."></div><figcaption><b>2</b>استهلاك الخامة والنتائج لعيّنة العمل نفسها</figcaption></figure>
+        <figure><div class="frame"><img src="../assets/work/tp-build-layout-preview.webp" width="1184" height="611" loading="lazy" decoding="async" alt="الجزء العلوي من معاينة توزيع التصاميم على رول بعرض 1.37 م، مع مساطر بالسنتيمتر: لافتتان مقاس 40 × 15 سم على عرض الرول، وعناصر أصغر مرتّبة بجانبهما، والعناصر المُدارة معلَّمة بالحرف R."></div><figcaption><b>3</b>معاينة توزيع التصاميم بعد التحسين (أعلى الرول؛ R تعني عنصرًا مُدارًا)</figcaption></figure>
+        <figure><div class="frame"><img src="../assets/work/tp-build-quick-quote.webp" width="1184" height="756" loading="lazy" decoding="async" alt="نتائج Quick Quote لرول بعرض 1 م وعشرة ملصقات مقاس 10 × 10 سم: إجمالي مساحة الخامة 0.30 م² من الرول، وطول الرول المستخدم 0.30 م، وإجمالي قيمة العمل ‎$3.00 بسعر ‎$10 للمتر، فوق معاينة توزيع التصاميم."></div><figcaption><b>4</b>Quick Quote: عشرة ملصقات مقاس 10 × 10 سم على رول بعرض 1 م. تشمل مساحة 0.30 م² خامة الرول المستهلكة مع الهوامش، أما التصاميم المطبوعة نفسها فمساحتها 0.10 م².</figcaption></figure>
+      </div>
+      <p class="caption">الشاشات الأربع من جلسة واحدة على نسخة أقدم سابقة للإصدار، بملفات ومقاسات وكميات وأسعار عيّنة افتراضية، والأرقام تصف هذه العيّنات وحدها. تعرض تلك النسخة اسم TOTEX PRINT، وهو اسم العمل المستخدم داخل الشيفرة، أما Total Print فهو الاسم التجاري المعلن للمنتج.</p>
+
+      <div class="p-body">
+        <dl class="facts rise">
+          <div><dt class="label">المشكلة</dt><dd>تخسر المطابع المال بسبب هدر خامات الرول وعروض الأسعار المحسوبة يدويًا. وإذا اختلف التخطيط الظاهر على الشاشة عن ملف PDF المرسَل إلى الطابعة، يُطبع الشيء الخطأ على خامة مرتفعة التكلفة.</dd></div>
+          <div><dt class="label">الهدف</dt><dd>استيراد التصاميم، وترتيبها على الرول، وتسعير العمل، وتجهيز ملف PDF لبرنامج RIP قبل طباعة أي شيء.</dd></div>
+          <div><dt class="label">الدور</dt><dd>المؤسس والمطوّر الوحيد</dd></div>
+          <div><dt class="label">الحالة</dt><dd>قبل الإصدار · لا يتوفر تنزيل عام بعد. في 18 أكتوبر 2026 كانت أزرار التنزيل في موقع المنتج معطّلة وتحمل عبارة «Coming Soon» (قريبًا).</dd></div>
+          <div><dt class="label">التقنيات</dt><dd>Electron 40 · React 19 · Web Workers · pdf-lib · ag-psd · Supabase</dd></div>
+          <div><dt class="label">الرابط</dt><dd><a class="ext" href="https://totalprintapp.com/" rel="noopener" lang="en">totalprintapp.com</a></dd></div>
+        </dl>
+        <div class="rise" style="--d:.1s">
+          <ol class="highs">
+            <li><div><h3>محرك ترتيب خضع للقياس وأصبح أسرع</h3><p>يجرّب المحرك عدة ترتيبات من نوع First-Fit Decreasing، ويعبّئ المساحة بخوارزمية Maximal Rectangles، ثم يحسّن النتيجة محليًا، وكل ذلك في Web Worker بعيدًا عن واجهة المستخدم. وفي تدقيق المحرك (أغسطس 2026)، خفّض أحد الإصلاحات زمن التخطيط لعمل من 5,066 عنصرًا من 3.97 ثانية إلى 1.55 ثانية (أسرع 2.57 مرة)، مع بقاء طول الرول ونسبة الاستغلال كما هما.<span class="q">قيست هذه النتيجة على هذا العمل وحده، باستدعاء المحرك مباشرةً على Windows 11 وNode 24، لا عبر واجهة المستخدم.</span></p></div></li>
+            <li><div><h3>المعاينة وملف PDF من وحدة واحدة لتحديد المواضع</h3><p>يتشارك التخطيط الظاهر على الشاشة وملف PDF المُصدَّر وحدةً برمجية واحدة لتحديد مواضع العناصر. ويتحقق اختبار مقارنة عبر 432 إعدادًا من بقاء المواضع متطابقة بين الاثنين ضمن هذه الحالات المختبَرة.<span class="q">ما زال تصدير PDF قيد التحقق والتحسين قبل الإصدار، ولا أدّعي أنه صحيح لكل تخطيط.</span></p></div></li>
+            <li><div><h3>ملفات حقيقية في البداية، وملف PDF جاهز للطباعة في النهاية</h3><p>يستورد ملفات PDF وAI وPSD وPNG وJPG ويقرأ مقاساتها الفعلية. ويصدّر ملف PDF للتخطيط مع علامات القص، وتصاميم PSD محوَّلة إلى صور نقطية بدقة 300 نقطة في البوصة، وتقسيمًا مناسبًا لبرنامج RIP.</p></div></li>
+          </ol>
+          <details class="tech">
+            <summary><span class="label">التفاصيل التقنية — البنية والاختبارات</span></summary>
+            <div class="tech-body">
+              <div>
+                <h4 class="label">البنية</h4>
+                <dl class="arch">
+                  <div><dt>تطبيق سطح المكتب</dt><dd>عملية Electron رئيسية مع قائمة سماح صريحة لقنوات IPC، وواجهة React، وترتيب التصاميم وتحليل ملفات PDF في Web Workers.</dd></div>
+                  <div><dt>الواجهة الخلفية</dt><dd>قاعدة بيانات Supabase بصلاحيات وصول لكل صف (Row-Level Security) ودوال Edge.</dd></div>
+                  <div><dt>المنظومة المحيطة</dt><dd>لوحة إدارة مستقلة (Vite وReact وTypeScript)، والموقع التسويقي، وقناة تحديثات موقَّعة.</dd></div>
+                </dl>
+              </div>
+              <div>
+                <h4 class="label">أدلة الاختبار</h4>
+                <ul class="dots">
+                  <li>125 اختبارًا آليًا في 8 مجموعات <span class="note">(سجلات المشروع، أغسطس 2026)</span>.</li>
+                  <li>اختبار تعاقدي يحلّل شيفرة العملية الرئيسية وملف preload، ويفشل إذا عولجت قناة IPC دون أن تكون في قائمة السماح، أو العكس.</li>
+                  <li>ملفات بيان التحديثات موقَّعة، والاختبارات تثبت رفض أي ملف معدَّل أو يحاول الرجوع إلى إصدار أقدم.</li>
+                  <li>اختبارات أداء تغطي أعمالًا تضم أكثر من 5,000 عنصر.</li>
+                </ul>
+              </div>
+              <p class="note span">الشيفرة المصدرية خاصة وغير معروضة هنا.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 — AGENT TRUST -->
+  <section class="sec lab" id="lab" aria-labelledby="lab-title">
+    <div class="wrap lab-grid">
+      <div>
+        <div class="reveal">
+          <p class="label">03 — مختبر هندسي · مفتوح المصدر</p>
+          <h2 class="p-title" id="lab-title" lang="en"><span class="sr">Agent Trust</span><span aria-hidden="true"><span class="line"><span class="metal" style="--i:0">AGENT</span></span><span class="line"><span class="metal" style="--i:1">TRUST</span></span></span></h2>
+        </div>
+        <p class="p-lede rise">طبقة تفويض لوكلاء الذكاء الاصطناعي. بدلًا من درجة ثقة، يجب أن يستند كل إجراء إلى صلاحية قابلة للتحقق ومحددة النطاق وقابلة للإلغاء، وتتخذ القرارَ سياسةٌ حتمية.</p>
+        <ul class="plain rise" style="--d:.1s;margin-top:28px">
+          <li><strong>هوية قابلة للتحقق</strong><p>يعرّف الوكلاء أنفسهم بمعرّفات W3C اللامركزية (DIDs)، ويثبتون امتلاكهم لمفاتيحهم مع كل طلب.</p></li>
+          <li><strong>تفويض محدد النطاق</strong><p>تصل الصلاحية في صورة بيانات اعتماد W3C قابلة للتحقق (Verifiable Credentials)، والصلاحية المفوَّضة يمكن أن تضيق فقط، ولا تتسع أبدًا.</p></li>
+          <li><strong>سياسة حتمية</strong><p>سياسات Rego مُترجَمة إلى WebAssembly تعمل داخل الخدمة، وتُرجع ALLOW أو DENY أو REQUIRE_APPROVAL مع رمز السبب، وترفض تلقائيًا عند أي خلل.</p></li>
+        </ul>
+        <div class="lab-meta rise" style="--d:.15s">
+          <span>TypeScript · Fastify · Next.js · Redis · OPA (Wasm)</span>
+          <span>رخصة MIT · يعمل محليًا عبر Docker Compose · لا يوجد عرض مستضاف</span>
+          <a class="btn ghost ext" href="https://github.com/abuzaro21/agent-trust" rel="noopener">عرض المستودع على GitHub</a>
+        </div>
+      </div>
+      <figure class="rise" style="--d:.2s">
+        <div class="frame"><img src="../assets/work/at-deny-pipeline.webp" width="712" height="514" loading="lazy" decoding="async" alt="لوحة قرار Agent Trust: مرفوض، AUTHORITY_LIMIT_EXCEEDED. المبلغ المطلوب 5000 ريال سعودي يتجاوز الحد المفوَّض البالغ 500 ريال. اجتازت الهوية وبيانات الاعتماد والصلاحية والحماية من إعادة الإرسال والتدقيق الفحص، ورفضت السياسة الطلب، فلم يُنفَّذ الإجراء."></div>
+        <p class="caption">الوكيل نفسه وبيانات الاعتماد الصالحة نفسها: ترفض السياسة استرداد 5,000 ريال سعودي لأنه يتجاوز حد التفويض البالغ 500 ريال. لقطة شاشة من العرض المحلي في المستودع.</p>
+      </figure>
+    </div>
+  </section>
+
+  <!-- INSIDE THE ENGINEERING -->
+  <section class="sec" id="engineering" aria-labelledby="eng-title" style="border-top:1px solid var(--rule)">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="h2 reveal" id="eng-title"><span class="sr">قرارات هندسية وراء المشاريع</span><span aria-hidden="true"><span class="line"><span style="--i:0">قرارات هندسية</span></span><span class="line"><span style="--i:1" class="metal">وراء المشاريع</span></span></span></h2>
+        <p class="sec-intro rise">خمسة قرارات من المشاريع أعلاه: المشكلة، وما اخترته، والدليل الذي يستند إليه. كل ما هنا مأخوذ من دراسات الحالة في هذه الصفحة.</p>
+      </div>
+      <div class="eng rise" id="eng">
+        <div class="eng-tabs" role="tablist" aria-label="قرارات هندسية وراء المشاريع" aria-orientation="vertical"></div>
+
+        <article class="eng-panel" id="eng-1" data-tab="لا إرسال مكرر" data-tag="WINK STORE">
+          <p class="label">WINK STORE · معالجة الأحداث</p>
+          <h3>رسائل واتساب لا تُرسَل مرتين أبدًا</h3>
+          <div class="eng-cols">
+            <div><h4 class="label">المشكلة</h4><p>ترسل معالجات أحداث تعمل في الخلفية تأكيدات الطلبات. كانت المعالجات المتنافسة تُسقط بعض الرسائل، وقد تكرر إعادة المحاولة بعد التعطل رسالة سبق تسليمها.</p></div>
+            <div><h4 class="label">القرار</h4><p>يحجز المعالج المهمة، ثم يرسل دون إبقاء الطلب مقفلًا، ثم يسجّل النتيجة؛ وتنتهي صلاحية الحجز المتروك تلقائيًا. وقبل أي إعادة محاولة يتحقق مما إذا كانت الرسالة قد أُرسلت، ولا يرسل شيئًا إذا لم تكن الإجابة مؤكدة.</p></div>
+          </div>
+          <ol class="flow" aria-label="مسار الرسالة"><li>الحجز</li><li>الإرسال</li><li>التسجيل</li><li class="alt">إعادة المحاولة: التحقق أولًا</li></ol>
+          <p class="evidence"><span class="label">السياق</span>مذكور ضمن تحديات WINK STORE وحلولها. لدى الواجهة الخلفية <b>583 اختبارًا آليًا</b> (تدقيق المشروع، 27 سبتمبر 2026)، ويحتفظ المشروع بمراجعة موثَّقة للموثوقية والأمان تضم 19 ملاحظة، لكلٍّ منها إصلاحها.</p>
+        </article>
+
+        <article class="eng-panel" id="eng-2" data-tab="دورة حياة الطلب" data-tag="WINK STORE">
+          <p class="label">WINK STORE · سير العمل التجاري</p>
+          <h3>كل خطوة في الطلب تشغّل سير العمل التجاري المقابل</h3>
+          <div class="eng-cols">
+            <div><h4 class="label">المشكلة</h4><p>كانت الطلبات الملغاة تُبقي مخزونها خارج البيع، لأن حالات الطلب في المتجر انفصلت عن سجلات المخزون والدفع والتجهيز في المحرك التجاري.</p></div>
+            <div><h4 class="label">القرار</h4><p>كل خطوة يتخذها فريق المتجر في دورة حياة الطلب تشغّل الآن سير العمل المقابل في المحرك التجاري: التجهيز، أو التحصيل، أو الإكمال، أو الإرجاع مع إعادة المخزون. ويصحّح سكربت إصلاح الطلبات القديمة بعد تشغيل تجريبي أول لا يغيّر شيئًا.</p></div>
+          </div>
+          <ol class="flow" aria-label="دورة حياة الطلب"><li>التأكيد</li><li>التجهيز</li><li>التحصيل</li><li>الإكمال</li><li class="alt">الإلغاء: إرجاع وإعادة للمخزون</li></ol>
+          <p class="evidence"><span class="label">السياق</span>يؤكد المتسوق طلب الدفع عند الاستلام برمز واتساب صالح لمرة واحدة قبل أن يدخل الطلب دورة الحياة هذه. المتجر في مرحلة ما قبل الإطلاق ويعمل على كتالوج عرض توضيحي.</p>
+        </article>
+
+        <article class="eng-panel" id="eng-3" data-tab="الترتيب في الخلفية" data-tag="TOTAL PRINT">
+          <p class="label">TOTAL PRINT · المعالجة في الخلفية</p>
+          <h3>محرك ترتيب يعمل بعيدًا عن واجهة المستخدم</h3>
+          <div class="eng-cols">
+            <div><h4 class="label">المشكلة</h4><p>ترتيب آلاف القطع على رول واحد حساب ثقيل. ولو جرى في خيط واجهة المستخدم لتجمّد التطبيق والمطبعة تنتظر التخطيط.</p></div>
+            <div><h4 class="label">القرار</h4><p>يعمل المحرك في Web Worker: يجرّب عدة ترتيبات من نوع First-Fit Decreasing، ويعبّئ المساحة بخوارزمية Maximal Rectangles، ثم يحسّن النتيجة محليًا. بعد ذلك قِستُ أداءه وأصلحت المسار البطيء فيه.</p></div>
+          </div>
+          <ol class="flow" aria-label="مراحل الترتيب"><li>قراءة المقاسات من الملفات</li><li>ترتيب القطع</li><li>تعبئة المستطيلات</li><li>التحسين</li><li>المعاينة</li></ol>
+          <p class="evidence"><span class="label">الدليل</span>في تدقيق محرك المشروع (أغسطس 2026)، <b>انخفض زمن التخطيط لعمل من 5,066 عنصرًا من 3.97 ثانية إلى 1.55 ثانية (أسرع 2.57 مرة)</b>، مع بقاء طول الرول ونسبة الاستغلال كما هما. النتيجة لعمل واحد، قيست باستدعاء المحرك مباشرةً على Windows 11 وNode 24، لا عبر واجهة المستخدم.</p>
+        </article>
+
+        <article class="eng-panel" id="eng-4" data-tab="مواضع مشتركة" data-tag="TOTAL PRINT">
+          <p class="label">TOTAL PRINT · الاختبارات</p>
+          <h3>منطق مشترك لتحديد المواضع في المعاينة وتصدير PDF</h3>
+          <div class="eng-cols">
+            <div><h4 class="label">المشكلة</h4><p>إذا اختلف التخطيط على الشاشة عن ملف PDF المُصدَّر، يُطبع الشيء الخطأ على خامة رول مرتفعة التكلفة.</p></div>
+            <div><h4 class="label">القرار</h4><p>تتشارك المعاينة على الشاشة ومُصدِّر PDF وحدة واحدة لتحديد المواضع بدلًا من نسختين من الحسابات نفسها، ويقارن اختبارٌ بين الاثنين.</p></div>
+          </div>
+          <ol class="flow" aria-label="تحديد المواضع"><li>نتيجة المحرك</li><li>وحدة واحدة لتحديد المواضع</li><li>المعاينة</li><li>PDF</li></ol>
+          <p class="evidence"><span class="label">الدليل</span>يتحقق اختبار مقارنة عبر <b>432 إعدادًا</b> من بقاء المواضع متطابقة بين المعاينة وملف PDF ضمن هذه الحالات المختبَرة. ما زال تصدير PDF قيد التحقق والتحسين قبل الإصدار، ولا أدّعي أنه صحيح لكل تخطيط.</p>
+        </article>
+
+        <article class="eng-panel" id="eng-5" data-tab="رفض عند أي خلل" data-tag="AGENT TRUST">
+          <p class="label">AGENT TRUST · التفويض</p>
+          <h3>صلاحية يمكن التحقق منها، تحكمها سياسة ترفض عند أي خلل</h3>
+          <div class="eng-cols">
+            <div><h4 class="label">المشكلة</h4><p>درجة الثقة لا تقول شيئًا عمّا يُسمح لوكيل الذكاء الاصطناعي بفعله فعلًا، ولا عمّن منحه هذا الإذن.</p></div>
+            <div><h4 class="label">القرار</h4><p>يثبت الوكلاء هويتهم بالمعرّفات اللامركزية، ويحملون صلاحيات محددة النطاق في صورة بيانات اعتماد قابلة للتحقق لا يمكن إلا أن تضيق عند التفويض، وتُرجع سياسة Rego مُترجَمة إلى WebAssembly القرار ALLOW أو DENY أو REQUIRE_APPROVAL مع السبب.</p></div>
+          </div>
+          <ol class="flow" aria-label="مسار القرار"><li>الهوية</li><li>بيانات الاعتماد</li><li>الصلاحية</li><li>السياسة</li><li class="alt">الرفض هو الأصل</li></ol>
+          <p class="evidence"><span class="label">الدليل</span>في العرض المحلي للمستودع، <b>ترفض السياسة استرداد 5,000 ريال سعودي</b> للوكيل نفسه وببيانات الاعتماد الصالحة نفسها، لأنه يتجاوز حد التفويض البالغ 500 ريال. مفتوح المصدر برخصة MIT، ولا يوجد عرض مستضاف.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="sec" id="services" aria-labelledby="services-title" style="border-top:1px solid var(--rule)">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="h2 reveal" id="services-title"><span class="sr">مشاريع محددة النطاق بسعر واضح.</span><span aria-hidden="true"><span class="line"><span style="--i:0">مشاريع محددة</span></span><span class="line"><span style="--i:1">النطاق</span></span><em class="line"><span style="--i:2">بسعر <i>واضح.</i></span></em></span></h2>
+        <p class="sec-intro rise">مشاريع صغيرة واضحة الحدود، بسعر ثابت وموعد تسليم نتفق عليهما كتابيًا قبل أن يبدأ العمل. الأسعار المذكورة أسعار بداية.</p>
+      </div>
+      <div class="svc-list rise">
+        <details class="svc" name="svc" open>
+          <summary><span class="n" aria-hidden="true">01</span><h3>إصلاح أخطاء React / Next.js</h3><span class="price">تبدأ من <span class="ltr">$150</span></span><span class="tog" aria-hidden="true"></span></summary>
+          <div class="svc-body"><div class="svc-inner">
+            <p>خطأ محدد بوضوح في تطبيق React أو Next.js قائم، أتتبّعه حتى سببه الجذري وأصلحه في طلب دمج (Pull Request) مع اختبار انحدار، كي لا يعود.</p>
+            <div><h4 class="label">ما تحصل عليه</h4><ul><li>السبب الجذري، مشروحًا بلغة واضحة</li><li>الإصلاح في طلب دمج على مستودعك</li><li>اختبار انحدار يفشل من دون الإصلاح</li><li>ملاحظات توضّح طريقة التحقق منه</li></ul></div>
+          </div></div>
+        </details>
+        <details class="svc" name="svc">
+          <summary><span class="n" aria-hidden="true">02</span><h3>تكامل واجهات API وWebhooks</h3><span class="price">تبدأ من <span class="ltr">$250</span></span><span class="tog" aria-hidden="true"></span></summary>
+          <div class="svc-body"><div class="svc-inner">
+            <p>ربط واجهة API لطرف ثالث أو استقبال إشعارات Webhook منها، مع التحقق من التوقيع، وإعادة محاولة آمنة، وحماية من التكرار، واختبارات.</p>
+            <div><h4 class="label">ما تحصل عليه</h4><ul><li>التحقق من توقيع إشعارات Webhook الواردة</li><li>إعادة محاولة آمنة لا تكرر أي أثر جانبي</li><li>حماية من التكرار</li><li>اختبارات وملاحظات تسليم مكتوبة</li></ul></div>
+          </div></div>
+        </details>
+        <details class="svc" name="svc">
+          <summary><span class="n" aria-hidden="true">03</span><h3>تحسينات التجارة الإلكترونية</h3><span class="price">بعرض سعر مخصّص</span><span class="tog" aria-hidden="true"></span></summary>
+          <div class="svc-body"><div class="svc-inner">
+            <p>أعمال على صفحة الدفع وسلة المشتريات والكتالوج ومسار الطلبات في متجر قائم، أحدد نطاقها وسعرها لكل حالة بعد أن أطّلع على الشيفرة وعلى ما يلزم تغييره.</p>
+            <div><h4 class="label">ما تحصل عليه</h4><ul><li>نطاق عمل مكتوب بسعر ثابت وموعد تسليم</li><li>العمل على فرع مستقل، مع اختبارات تغطي التغيير</li><li>طلب دمج وملاحظات تسليم</li></ul></div>
+          </div></div>
+        </details>
+      </div>
+      <div class="terms rise">
+        <p>نتفق كتابيًا على السعر النهائي الثابت وموعد التسليم بعد أن أراجع متطلباتك، وقبل أن يبدأ أي عمل. وإذا تغيّر النطاق، نتفق على التغيير كتابيًا أولًا.</p>
+        <ul><li>طلب دمج مع اختبارات</li><li>ملاحظات تسليم مكتوبة</li><li>جولة تعديلات واحدة ضمن النطاق</li></ul>
+        <a class="btn primary" href="https://wa.me/972593049788?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D9%88%D8%AF%D9%91%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D9%85%D8%B4%D8%B1%D9%88%D8%B9%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A8%D8%B1%D9%85%D8%AC%D9%8A." target="_blank" rel="noopener noreferrer"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2c.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>ناقش مشروعك عبر واتساب<span class="sr"> (يُفتح في واتساب)</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW I WORK -->
+  <section class="sec" id="process" aria-labelledby="process-title" style="border-top:1px solid var(--rule)">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="h2 reveal" id="process-title"><span class="sr">آلية العمل: نطاق واضح قبل كتابة أي شيفرة.</span><span aria-hidden="true"><span class="line"><span style="--i:0">آلية العمل</span></span><em class="line"><span style="--i:1">نطاق واضح <i>قبل كتابة أي شيفرة.</i></span></em></span></h2>
+      </div>
+      <ol class="steps rise">
+        <li><strong>تصف المشكلة</strong><p>المشكلة، والتقنيات التي تستخدمها، وصلاحية وصول إلى فرع أو بيئة تجريبية إن أمكن.</p></li>
+        <li><strong>نتفق على النطاق والسعر والموعد</strong><p>أرسل إليك نطاق عمل مكتوبًا بسعر ثابت وموعد تسليم. لا يبدأ أي شيء قبل موافقتك.</p></li>
+        <li><strong>أبني وأختبر</strong><p>يجري العمل على فرع مستقل، مع اختبارات تغطي التغيير.</p></li>
+        <li><strong>طلب الدمج والتسليم</strong><p>طلب دمج مع ملاحظات توضّح ما تغيّر، ولماذا، وكيف تتحقق منه.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <h2 class="h2 reveal" id="contact-title"><span class="sr">لديك سير عمل يحتاج إلى إصلاح؟</span><span aria-hidden="true"><span class="line"><span style="--i:0" class="metal">لديك سير عمل</span></span><em class="line"><span style="--i:1">يحتاج إلى <i>إصلاح؟</i></span></em></span></h2>
+      <div class="contact-grid rise">
+        <div>
+          <p class="label" style="margin-bottom:14px">واتساب · الوسيلة المفضّلة</p>
+          <a class="mail" href="https://wa.me/972593049788?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D9%88%D8%AF%D9%91%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D9%85%D8%B4%D8%B1%D9%88%D8%B9%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A8%D8%B1%D9%85%D8%AC%D9%8A." target="_blank" rel="noopener noreferrer">ناقش مشروعك عبر واتساب<span class="sr"> (يُفتح في واتساب)</span>&nbsp;<span aria-hidden="true">←</span></a>
+          <p class="contact-num"><span class="ltr">+972 59 304 9788</span></p>
+          <p class="contact-email"><span class="label">البريد الإلكتروني</span><a href="mailto:ibrahem.marwani.dev@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%85%D8%B4%D8%B1%D9%88%D8%B9" dir="ltr" lang="en">ibrahem.marwani.dev@gmail.com</a><button class="copy-email" type="button" data-copy="ibrahem.marwani.dev@gmail.com" data-done="نُسخ العنوان" hidden>نسخ<span class="sr"> عنوان البريد</span></button><span class="sr" role="status"></span></p>
+        </div>
+        <div class="contact-meta">
+          <p>أرسل وصفًا موجزًا للمشكلة والتقنيات التي تستخدمها، وسأرد بأسئلة أو بنطاق عمل مكتوب.</p>
+          <p>فلسطين · <span class="ltr">UTC+2 / UTC+3</span></p>
+          <div class="cta">
+            <a class="btn primary" href="https://wa.me/972593049788?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D9%88%D8%AF%D9%91%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D9%85%D8%B4%D8%B1%D9%88%D8%B9%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A8%D8%B1%D9%85%D8%AC%D9%8A." target="_blank" rel="noopener noreferrer"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2c.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>ناقش مشروعك عبر واتساب<span class="sr"> (يُفتح في واتساب)</span></a>
+            <a class="btn ghost ext" href="https://github.com/abuzaro21" rel="me noopener" lang="en">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="ltr" lang="en">© 2026 Ibrahem Marwani</span>
+    <span><span lang="en">WINK STORE</span> في مرحلة ما قبل الإطلاق، و<span lang="en">TOTAL PRINT</span> في مرحلة ما قبل الإصدار.</span>
+    <a href="#top">العودة إلى الأعلى ↑</a>
+  </div>
+</footer>
+
+<script src="../assets/js/site.js" defer></script>
+<script src="../assets/js/portrait.js" defer></script>
+</body>
+</html>
