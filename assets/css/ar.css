@@ -50,14 +50,14 @@ body em:lang(ar),body i:lang(ar),.serif-line:lang(ar){font-style:normal}   /* (0
 .shots figcaption b{display:inline-block}
 /* phone numbers and time zones keep their left-to-right order inside Arabic lines */
 .ltr{direction:ltr;unicode-bidi:isolate}
-/* TOTAL PRINT, desktop: the English wordmark takes the left column, so the three case-study headers alternate
-   (WINK STORE right, TOTAL PRINT left, AGENT TRUST right). The Arabic label, lede and chips stay right-aligned RTL
-   in the right column; the wordmark is LTR (lang="en" on the heading). Below 1024 px the header stacks right as before. */
+/* WINK STORE and TOTAL PRINT, desktop: the English wordmark takes the left column (owner request). The Arabic label,
+   lede and chips stay right-aligned RTL in the right column; the wordmark is LTR (lang="en" on the heading).
+   Below 1024 px the header stacks right as before. */
 @media (min-width:1024px){
-  .tp .p-head{grid-template-columns:minmax(0,1fr);gap:28px}
-  .tp .p-head>.reveal{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:auto 1fr auto;column-gap:clamp(40px,5vw,96px)}
-  .tp .p-head>.reveal>.label{grid-area:1/1}
-  .tp .p-title{grid-area:1/2/4/3;direction:ltr;margin-top:0}
-  .tp .p-lede{grid-area:3/1;margin-top:0}
-  .tp .chips{justify-content:flex-start;max-width:none}
+  .project .p-head{grid-template-columns:minmax(0,1fr);gap:28px}
+  .project .p-head>.reveal{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:auto 1fr auto;column-gap:clamp(40px,5vw,96px)}
+  .project .p-head>.reveal>.label{grid-area:1/1}
+  .project .p-title{grid-area:1/2/4/3;direction:ltr;margin-top:0}
+  .project .p-lede{grid-area:3/1;margin-top:0}
+  .project .chips{justify-content:flex-start;max-width:none}
 }
